@@ -452,7 +452,7 @@ func (p *parser) parseParams() []Expr {
 	return params
 }
 
-// parseExpr parses an expression, possible consisting of a
+// parseExpr parses an expression, possibly consisting of a
 // comma-separated list of 'test' expressions.
 //
 // In many cases we must use parseTest to avoid ambiguity such as
